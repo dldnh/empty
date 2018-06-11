@@ -1,0 +1,8 @@
+box: alpine
+
+build:
+    steps:
+        - script:
+            name: Howdy
+            code: |
+              echo "Hello, world!"
